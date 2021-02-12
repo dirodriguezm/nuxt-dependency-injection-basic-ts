@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM", "es6"],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "types": ["@nuxt/types", "@types/node", "reflect-metadata"]
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
